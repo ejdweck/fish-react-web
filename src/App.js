@@ -8,14 +8,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Jumbotron>
-          <h1>Fish are Friends, but also sometimes food haha</h1>
-          <p>Bert's got the first fish</p>
-          <p>
-            <Button bsStyle="primary">Learn more</Button>
-          </p>
+        <Jumbotron className="header">
+          <h1>GET YOUR CUSTOM FISH TODAY</h1>
+          <h1>WE HAVE THE BEST FISH</h1>
+          <Button bsStyle="success">Light</Button>
+          <Button bsStyle="danger">Feed</Button>
         </Jumbotron>
-        <img className="fish-stream" src="http://meatier-eland-4630.dataplicity.io/?action=stream" />
+        <img className="fish-stream" src="https://meatier-eland-4630.dataplicity.io/?action=stream" />
+        <Jumbotron className="footer">
+
+        </Jumbotron>
+
       </div>
     );
   }
